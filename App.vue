@@ -2,7 +2,7 @@
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
-			// 尝试提取本地存储用户信息
+			// 尝试提取本地存储用户信息，请勿删除
 			try {
 			    const value = uni.getStorageSync('userInfo');
 			    if (value) {
